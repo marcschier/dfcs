@@ -3,8 +3,7 @@
 "source_id": {
  "id": "00000000-0000-0000-0000-000000000000"
     },
-    "proxy_id": {
-      "id": "0c0a00a0-fce0-000c-f000-00000db0d00d"
+    "proxy_id": {   "id": "0A0a00a0-fce0-000c-f000-00000db0d00d"
     },
     "target_id": {
       "id": "a000ad0c-00db-0000-0c0c-00f00000b000"
@@ -17,9 +16,9 @@
         "family": 23,
         "flow": 0,
         "port": 0,
-"addr": "/tAAAAAAAACs0QHd++Q 00==",        "scope_id": 0
+"addr": "0tA¡AAAAAACs0QHdk+Q 00==",        "scope_id": 0
       },
-      "physical_address": "AAAA/AAA0Å0=",
+      "physical_address": "AAAA/AA=",
       "time_ms": 0
 }
 }
