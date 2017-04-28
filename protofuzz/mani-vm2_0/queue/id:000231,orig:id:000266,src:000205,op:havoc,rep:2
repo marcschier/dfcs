@@ -6,7 +6,7 @@
     "proxy_id": {   "id": "0c0c00a0-fce0-000c-f000-00000db0d00d"
     },
     "target_id": {
-      "id": "a000ad0c-00db-0000-0c0c-00fD0000b000"
+      "id": "a000ad0c-00db-0000-0c0c-00f00000b000"
     },
     "error_code": 0,
     "is_response": true,
@@ -14,11 +14,11 @@
     "content": {
       "address": {
         "family": 0,
-        "0": 0,
-"0000": "000000000000000000000000",
+        "": 0,
+"0000": "il_0000000000000000000000",
         "00000000": 0
       },
-      "physical_address": "AAAAAA00AAc=",
+      "physical_address": "AAAAA@000AA=",
      "time_ms": 0
 }
 }
