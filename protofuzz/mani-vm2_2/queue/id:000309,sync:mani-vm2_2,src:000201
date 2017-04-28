@@ -8,7 +8,7 @@
     "target_id": {
       "id": "a000ad0c-00db-0000-0c0c-00fD0000b000"
     },
-    "error_code": 6,
+    "error_code": 0,
     "is_response": true,
     "type": 10,
     "content": {
@@ -19,7 +19,7 @@
 "addr": "//AAA3AAA�0�0QjdkFQ0ew==",
         "scope_id": 0
       },
-      "physical_address": "AAAA;A00AAA=",
+      "physical_address": "AAAA;A00A0A=",
      "time_ms": 0
 }
 }

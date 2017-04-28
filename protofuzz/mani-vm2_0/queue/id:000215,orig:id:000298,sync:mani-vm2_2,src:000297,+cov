@@ -8,7 +8,7 @@
     "target_id": {
       "id": "a000ad0c-00db-0000-0c0c-00fD0000b000"
     },
-    "error_code": 0,
+    "error_code": 6,
     "is_response": true,
     "type": 10,
     "content": {
@@ -16,10 +16,10 @@
         "family": 23,
         "flow": 0,
         "port": 0,
-"addr": "//AAA3AAA…0…0QjdkFQ0ew==",
+"addr": "//A*A3AAA…0…0QjdkFQ0ew==",
         "scope_id": 0
       },
-      "physical_address": "AAAA;A00A0A=",
+      "physical_address": "AAAA;D00AAA=",
      "time_ms": 0
 }
 }
