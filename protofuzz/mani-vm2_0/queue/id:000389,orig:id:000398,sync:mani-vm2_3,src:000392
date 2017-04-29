@@ -13,13 +13,13 @@
     "type": 12,
     "content": {
       "link_id": {
-        "id": "0c000000-c0c0-00fd-fb00-e00e0daf000a"
+        "id": "0c000000-c0cc-00fd-fb00-e00e0daf000a"
       },
       "local_address": {
         "family": 2,
         "flow": 0,
         "port": 60000,
-        "addr": "00L00=="
+        "addr": "0000Q=="
       },
       "peer_address": {
         "family": 2,
