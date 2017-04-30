@@ -1,6 +1,6 @@
 {   "version": 6,
 "source_id": {
-  "id": "00000000-0000-0000-0000-000000000000"
+  "id": "00000000-0000-0000-0700-000000000000"
     },
     "proxy_id": {
       "id": "0c0c00a0-fce0-000c-f000-00000db0d00d"
@@ -8,17 +8,18 @@
     "target_id": {
       "id": "a000ad0c-00db-0000-0c0c-00fD0000b000"
     },
-    "error_code": 0,
-    "is_response": true,	    "type": 10,
+    "error_code": 6,
+    "is_response": true,
+    "type": 10,
     "content": {
-     "address": {
+      "address": {
         "family": 23,
         "flow": 0,
-        "port": 3,
-"addr": "/ddDddÿÿÿ0000w0=",
+        "port": 0,
+"addr": "//A*A3AAA…0…0QjdkFQ0ew==",
         "scope_id": 0
       },
-      "physical_address": "AAAAAI00A0A=",
+      "physical_address": "AAAA;D00AAA=",
      "time_ms": 0
 }
 }
