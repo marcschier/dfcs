@@ -1,69 +1,9 @@
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000002,sig:11,src:000167+000364,op:splice,rep:4
-SHA1: 47a8a4ba42c319829d532368fc2f8aa6abe47ed6
-Classification: UNKNOWN
-Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000002,sig:11,src:000167+000364,op:splice,rep:4 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff8cec rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000007ada r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x00008000000058d3 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000000,sig:11,src:000109+000249,op:splice,rep:2
-SHA1: 72d085f9a00382c5e056f1a6bf86be7a76bb92a9
-Classification: UNKNOWN
-Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000000,sig:11,src:000109+000249,op:splice,rep:2 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff884b rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000007f7b r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000005d74 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000001,sig:06,src:000052,op:havoc,rep:2
-SHA1: 33a57d674a39e55304c0bf3a57c6c7c8b9b56824
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000000,sig:06,src:000400+000372,op:splice,rep:2
+SHA1: cc318c48250669a06a72db460f9cd9b9f4f5b6f1
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000001,sig:06,src:000052,op:havoc,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000000,sig:06,src:000400+000372,op:splice,rep:2 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -83,7 +23,7 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a944 rdi=0x000000000000a944 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+rsi=0x000000000001263a rdi=0x000000000001263a rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
  r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
 r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
 rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
@@ -94,41 +34,11 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000003,sig:11,src:000223+000017,op:splice,rep:2
-SHA1: 74e8b934bb2f202d3b97904f2df303a089253a5d
-Classification: UNKNOWN
-Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000003,sig:11,src:000223+000017,op:splice,rep:2 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff94bc rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x000000000000730a r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000005103 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000004,sig:11,src:000233,op:havoc,rep:2
-SHA1: 5af5c5b0c200fa1bfc0c365f9c06e0f3972722ba
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000002,sig:11,src:000106,op:havoc,rep:8
+SHA1: 56a4bb8f3f4d3dc3e9b3c6ad9ca2b6f2913393dd
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000004,sig:11,src:000233,op:havoc,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000002,sig:11,src:000106,op:havoc,rep:8 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -143,9 +53,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffc95f rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000003e67 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000001c60 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff8cfd rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000007ac9 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000058c2 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -154,23 +64,365 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000005,sig:11,src:000266+000430,op:splice,rep:2
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000003,sig:11,src:000147,op:havoc,rep:4
+SHA1: 739aec3603db60f2942211ac6666c897ff29ed75
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000003,sig:11,src:000147,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbb28 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000004c9e r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002a97 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000001,sig:06,src:000400+000372,op:splice,rep:8
+SHA1: b7bad891a07ada142d6d81764921f6cbfa4940c9
+Classification: UNKNOWN
+Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000001,sig:06,src:000400+000372,op:splice,rep:8 /tmp.out
+Faulting Frame:
+   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (13 entries):
+   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
+rsi=0x000000000001263e rdi=0x000000000001263e rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
+r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Abort signal
+   Short description: AbortSignal (20/22)
+   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000004,sig:11,src:000342+000178,op:splice,rep:8
+SHA1: da242543386719dbf322e3103fca9959e456c35d
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000004,sig:11,src:000342+000178,op:splice,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff9ce0 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000006ae6 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000048df r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000005,sig:11,src:000029,op:havoc,rep:4
+SHA1: b6c389376707e31fc982a05d984a606a8d35f688
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000005,sig:11,src:000029,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffd9e9 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000002ddd r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000000bd6 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000006,sig:11,src:000096,op:havoc,rep:2
+SHA1: ff3eb4535182a6222798fa56190bb893178ed721
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000006,sig:11,src:000096,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbbb3 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000004c13 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002a0c r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes/id:000007,sig:11,src:000028,op:havoc,rep:2
+SHA1: 66f5ba1d8bfe97c77408bd9c02cff8079c8c6892
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000007,sig:11,src:000028,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffc430 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000004396 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x000080000000218f r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000000,sig:11,src:000109+000249,op:splice,rep:2
+SHA1: 72d085f9a00382c5e056f1a6bf86be7a76bb92a9
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000000,sig:11,src:000109+000249,op:splice,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff884b rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000007f7b r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000005d64 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000001,sig:06,src:000052,op:havoc,rep:2
+SHA1: 33a57d674a39e55304c0bf3a57c6c7c8b9b56824
+Classification: UNKNOWN
+Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000001,sig:06,src:000052,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (13 entries):
+   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
+rsi=0x000000000001266c rdi=0x000000000001266c rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Abort signal
+   Short description: AbortSignal (20/22)
+   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000002,sig:11,src:000167+000364,op:splice,rep:4
+SHA1: 47a8a4ba42c319829d532368fc2f8aa6abe47ed6
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000002,sig:11,src:000167+000364,op:splice,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff8cec rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000007ada r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000058c3 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000003,sig:11,src:000223+000017,op:splice,rep:2
+SHA1: 74e8b934bb2f202d3b97904f2df303a089253a5d
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000003,sig:11,src:000223+000017,op:splice,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff94bc rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x000000000000730a r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000050f3 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000004,sig:11,src:000233,op:havoc,rep:2
+SHA1: 5af5c5b0c200fa1bfc0c365f9c06e0f3972722ba
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000004,sig:11,src:000233,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffc95f rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000003e67 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000001c50 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000005,sig:11,src:000266+000430,op:splice,rep:2
 SHA1: 6bdd969a6ded90aa83e93343af40c9ca28f2039d
 Classification: EXPLOITABLE
-Hash: e21a5397729049668f48c7cc44331583.e21a5397729049668f48c7cc44331583
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000005,sig:11,src:000266+000430,op:splice,rep:2 /tmp.out
+Hash: 3d576679a29f150aef46ad7970564307.3d576679a29f150aef46ad7970564307
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000005,sig:11,src:000266+000430,op:splice,rep:2 /tmp.out
 Faulting Frame:
    io_message_file_decode_encode @ 0x00000000004090c7: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
-Stack Head (3 entries):
+Stack Head (5 entries):
    io_message_file_decode_en @ 0x00000000004090c7: in /repo/build/cmake/Release/bin/protofuzz
    None                      @ 0x0a0d0000004093d8: in ?
+   None                      @ 0xff00000000000000: in ?
+   None                      @ 0xa6ed185639d73c00: in ?
    None                      @ 0x0000000000000000: in ?
 Registers:
 rax=0x00000000fffffc31 rbx=0x0000000000694170 rcx=0x00000000006734c0 rdx=0x0000000000000000 
-rsi=0x0000000000000000 rdi=0x00007ffff78abb20 rbp=0x00007fffffffee12 rsp=0x00007fffffffeac8 
+rsi=0x0000000000000000 rdi=0x00007ffff78abb20 rbp=0x00007fffffffedfe rsp=0x00007fffffffeab8 
  r8=0x00007ffff7fee700  r9=0x0000000000000001 r10=0x0000000000000477 r11=0x0000000000000246 
-r12=0xfffffffffffffffc r13=0x00007fffffffebe0 r14=0x0000000000000002 r15=0x00007fffffffebe8 
+r12=0xfffffffffffffffc r13=0x00007fffffffebd0 r14=0x0000000000000002 r15=0x00007fffffffebd8 
 rip=0x00000000004090c7 efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -179,11 +431,11 @@ Extra Data:
    Explanation: The target crashed on a return instruction, which likely indicates stack corruption.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000006,sig:11,src:000521,op:havoc,rep:8
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000006,sig:11,src:000521,op:havoc,rep:8
 SHA1: 872eebc240058c30d7c1bdbb817b7af2523cea41
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000006,sig:11,src:000521,op:havoc,rep:8 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000006,sig:11,src:000521,op:havoc,rep:8 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -198,9 +450,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff858b rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff858b rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x000000000000823b r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000006034 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000006024 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -209,11 +461,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000007,sig:06,src:000556,op:havoc,rep:4
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000007,sig:06,src:000556,op:havoc,rep:4
 SHA1: 4d3816f6d7bef82f6af0cae31fc94bd7bc1e0079
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000007,sig:06,src:000556,op:havoc,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000007,sig:06,src:000556,op:havoc,rep:4 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -233,74 +485,9 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a967 rdi=0x000000000000a967 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
- r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
-r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
-rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Abort signal
-   Short description: AbortSignal (20/22)
-   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000008,sig:11,src:000556,op:havoc,rep:4
-SHA1: 564a75d33b4ee9af9c85cb50395d143d526b899b
-Classification: UNKNOWN
-Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000008,sig:11,src:000556,op:havoc,rep:4 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbb4b rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000004c7b r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000002a74 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000009,sig:06,src:000052+000554,op:splice,rep:4
-SHA1: 7eb9984d590b9cf0b80fd2c07f5831274c31589e
-Classification: UNKNOWN
-Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000009,sig:06,src:000052+000554,op:splice,rep:4 /tmp.out
-Faulting Frame:
-   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (13 entries):
-   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
-   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a974 rdi=0x000000000000a974 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+rsi=0x0000000000012690 rdi=0x0000000000012690 rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
  r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
-r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
 rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -309,41 +496,11 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_1/crashes/id:000010,sig:11,src:000067,op:havoc,rep:2
-SHA1: c2ae3d04e22575e84b057f415f2952ffe1691262
-Classification: UNKNOWN
-Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes/id:000010,sig:11,src:000067,op:havoc,rep:2 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffb52f rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000005297 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000003090 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000000,sig:11,src:000164,op:havoc,rep:8
-SHA1: 4fbbbfdce88fd33c1c854992ae1cfcf5b48666a6
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000008,sig:11,src:000556,op:havoc,rep:4
+SHA1: 564a75d33b4ee9af9c85cb50395d143d526b899b
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000000,sig:11,src:000164,op:havoc,rep:8 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000008,sig:11,src:000556,op:havoc,rep:4 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -358,9 +515,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffc01b rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x00000000000047ab r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x00008000000025a4 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffbb4b rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000004c7b r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002a64 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -369,71 +526,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000001,sig:11,src:000561,op:havoc,rep:4
-SHA1: e2b52d51ec0dee155d992ae3cd90bfb0cf7ca3b5
-Classification: UNKNOWN
-Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000001,sig:11,src:000561,op:havoc,rep:4 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffa0bc rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x000000000000670a r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000004503 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000002,sig:11,src:000155,op:havoc,rep:16
-SHA1: c9c21ebba03a774571abbaa1088d7034585c242b
-Classification: UNKNOWN
-Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000002,sig:11,src:000155,op:havoc,rep:16 /tmp.out
-Faulting Frame:
-   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-Disassembly:
-Stack Head (8 entries):
-   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
-   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
-   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
-   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
-   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
-   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
-Registers:
-rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbbf7 rsp=0x00007fffffffdd90 
- r8=0x0000000000000000  r9=0x0000000000004bcf r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x00008000000029c8 r14=0xfffffffffffffffc r15=0x000000000046866b 
-rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
- ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
-Extra Data:
-   Description: Access violation
-   Short description: AccessViolation (21/22)
-   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
----END SUMMARY---
----CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000003,sig:06,src:000058+000562,op:splice,rep:2
-SHA1: ca52bcab68d3103de369e2cddb547f624b26c8f9
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000009,sig:06,src:000052+000554,op:splice,rep:4
+SHA1: 7eb9984d590b9cf0b80fd2c07f5831274c31589e
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000003,sig:06,src:000058+000562,op:splice,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000009,sig:06,src:000052+000554,op:splice,rep:4 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -453,9 +550,406 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a992 rdi=0x000000000000a992 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+rsi=0x000000000001269c rdi=0x000000000001269c rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Abort signal
+   Short description: AbortSignal (20/22)
+   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000010,sig:11,src:000067,op:havoc,rep:2
+SHA1: c2ae3d04e22575e84b057f415f2952ffe1691262
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_1/crashes.2017-05-01-16:10:27/id:000010,sig:11,src:000067,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffb52f rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000005297 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000003080 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000000,sig:11,src:000111,op:havoc,rep:2
+SHA1: 4787b15225fd81ce0809d8e5827bfd95dc0677d8
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000000,sig:11,src:000111,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffa924 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000005ea2 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000003c9b r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000001,sig:11,src:000092,op:havoc,rep:2
+SHA1: 79523334fe1d5cc1b5ed70878f97a1c79aad0ada
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000001,sig:11,src:000092,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff93bc rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x000000000000740a r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000005203 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000002,sig:11,src:000358,op:havoc,rep:4
+SHA1: 66424b80b2dd4d2724f2393a60cdc46abdc99c0b
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000002,sig:11,src:000358,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffa818 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000005fae r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000003da7 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000003,sig:11,src:000416,op:havoc,rep:4
+SHA1: 5fd0ed77e70c1bec5aa2f62ea53a9512028ad47e
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000003,sig:11,src:000416,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffb413 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x00000000000053b3 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000031ac r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000004,sig:11,src:000084,op:havoc,rep:4
+SHA1: 574d65c7a767276106e3bcaf97f4b31d41611bda
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000004,sig:11,src:000084,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff9cfc rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000006aca r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000048c3 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000005,sig:11,src:000001+000178,op:splice,rep:2
+SHA1: a2e130590eb5d043c138525a3d089527ee02f82c
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000005,sig:11,src:000001+000178,op:splice,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbab2 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000004d14 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002b0d r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000006,sig:11,src:000490,op:havoc,rep:2
+SHA1: 358dbf2f0158a0ca660a4b53ab43671bdf3e39c6
+Classification: UNKNOWN
+Hash: ce9d8557199e8b83dc59e212491ab9b2.3637fba0bcc955ea3763cb0730a39ea5
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000006,sig:11,src:000490,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (10 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_link_response   @ 0x000000000041ce2e: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message_content @ 0x000000000041ce2e: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b728: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdc20 rbp=0xffffffffffffad5d rsp=0x00007fffffffdca0 
+ r8=0x0000000000000000  r9=0x0000000000005a69 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000003772 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes/id:000007,sig:11,src:000023,op:havoc,rep:8
+SHA1: 867429ce2e76875bb7789f9a11a9ec638b520ce3
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000007,sig:11,src:000023,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff9668 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x000000000000715e r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000004f57 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000000,sig:11,src:000164,op:havoc,rep:8
+SHA1: 4fbbbfdce88fd33c1c854992ae1cfcf5b48666a6
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000000,sig:11,src:000164,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffc01b rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x00000000000047ab r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002594 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000001,sig:11,src:000561,op:havoc,rep:4
+SHA1: e2b52d51ec0dee155d992ae3cd90bfb0cf7ca3b5
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000001,sig:11,src:000561,op:havoc,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffa0bc rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x000000000000670a r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000044f3 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000002,sig:11,src:000155,op:havoc,rep:16
+SHA1: c9c21ebba03a774571abbaa1088d7034585c242b
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000002,sig:11,src:000155,op:havoc,rep:16 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffbbf7 rsp=0x00007fffffffdd80 
+ r8=0x0000000000000000  r9=0x0000000000004bcf r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000029b8 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000003,sig:06,src:000058+000562,op:splice,rep:2
+SHA1: ca52bcab68d3103de369e2cddb547f624b26c8f9
+Classification: UNKNOWN
+Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000003,sig:06,src:000058+000562,op:splice,rep:2 /tmp.out
+Faulting Frame:
+   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (13 entries):
+   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
+rsi=0x00000000000126ea rdi=0x00000000000126ea rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
  r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
-r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
 rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -464,11 +958,11 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000004,sig:11,src:000050+000431,op:splice,rep:4
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000004,sig:11,src:000050+000431,op:splice,rep:4
 SHA1: 42469038c0c2ea189597899fd9258f766789166d
 Classification: EXPLOITABLE
 Hash: bee9f919bfdf1f3577c1334a821e83be.bee9f919bfdf1f3577c1334a821e83be
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000004,sig:11,src:000050+000431,op:splice,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000004,sig:11,src:000050+000431,op:splice,rep:4 /tmp.out
 Faulting Frame:
    io_message_release @ 0x00000000004140a2: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -479,9 +973,9 @@ Stack Head (4 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000050dc rbx=0xfffffffffffffffc rcx=0x00000000006734c0 rdx=0x00000000006980b0 
-rsi=0x00007ffff78abb28 rdi=0x00000a0d00694770 rbp=0x00007fffffffe9c0 rsp=0x00007fffffffe8f0 
+rsi=0x00007ffff78abb28 rdi=0x00000a0d00694770 rbp=0x00007fffffffe9b0 rsp=0x00007fffffffe8e0 
  r8=0x0000000000697c00  r9=0x0000000000000000 r10=0x00007ffff78ac1e8 r11=0x0000000000000c50 
-r12=0x0000000000000000 r13=0xfffffffffffffffc r14=0x00007fffffffea58 r15=0x00000a0d00694770 
+r12=0x0000000000000000 r13=0xfffffffffffffffc r14=0x00007fffffffea48 r15=0x00000a0d00694770 
 rip=0x00000000004140a2 efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -490,11 +984,11 @@ Extra Data:
    Explanation: The target crashed on an access violation at an address matching the destination operand of the instruction. This likely indicates a write access violation, which means the attacker may control the write address and/or value.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_2/crashes/id:000005,sig:06,src:000599,op:havoc,rep:4
+Filename: /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000005,sig:06,src:000599,op:havoc,rep:4
 SHA1: 43f9edec5eb058e6a658b6f464d2e1c403244609
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes/id:000005,sig:06,src:000599,op:havoc,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_2/crashes.2017-05-01-16:10:26/id:000005,sig:06,src:000599,op:havoc,rep:4 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -514,7 +1008,77 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a99e rdi=0x000000000000a99e rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+rsi=0x00000000000126f6 rdi=0x00000000000126f6 rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Abort signal
+   Short description: AbortSignal (20/22)
+   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000000,sig:06,src:000045,op:havoc,rep:2
+SHA1: 8b0a603bab8691221a1a2521e003e773124cd247
+Classification: UNKNOWN
+Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000000,sig:06,src:000045,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (13 entries):
+   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
+rsi=0x00000000000126fc rdi=0x00000000000126fc rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
+r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Abort signal
+   Short description: AbortSignal (20/22)
+   Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000001,sig:06,src:000045+000163,op:splice,rep:4
+SHA1: f2ef1938095e358b78de86c30fa419fe943155db
+Classification: UNKNOWN
+Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000001,sig:06,src:000045+000163,op:splice,rep:4 /tmp.out
+Faulting Frame:
+   strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (13 entries):
+   __GI_raise                @ 0x00007ffff751d428: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI_abort                @ 0x00007ffff751f02a: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __libc_message            @ 0x00007ffff755f7ea: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___fortify_fail       @ 0x00007ffff760056c: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __GI___chk_fail           @ 0x00007ffff75fe570: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   __strcpy_chk              @ 0x00007ffff75fd8c2: in /lib/x86_64-linux-gnu/libc-2.23.so (BL)
+   strcpy                    @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
+rsi=0x0000000000012702 rdi=0x0000000000012702 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
  r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
 r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
 rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
@@ -525,11 +1089,281 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000000,sig:11,src:000026,op:havoc,rep:16
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000002,sig:11,src:000412,op:havoc,rep:8
+SHA1: 560792901b86083ff91654217945d79b973c85af
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000002,sig:11,src:000412,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffbbe4 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000004be2 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000029db r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000003,sig:11,src:000098,op:havoc,rep:2
+SHA1: 1cfe36159d2bfdd7af4087dc629a6f230a2795d1
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000003,sig:11,src:000098,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff984a rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000006f7c r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000004d75 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000004,sig:11,src:000175,op:havoc,rep:8
+SHA1: 0a524d6ef5122c4a86d0688cd801b735d3f38564
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000004,sig:11,src:000175,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffd518 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x00000000000032ae r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00008000000010a7 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000005,sig:11,src:000109,op:havoc,rep:2
+SHA1: 59b747e003c373771047d5e53fc4ae5893141ed7
+Classification: UNKNOWN
+Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000005,sig:11,src:000109,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041affb: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffde94 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000002932 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x000080000000072b r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000006,sig:11,src:000032,op:havoc,rep:2
+SHA1: 45c202933a96f6e0cbe6aff0d3ee247bfacb7aac
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000006,sig:11,src:000032,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff89ef rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000007dd7 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000005bd0 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000007,sig:11,src:000109,op:havoc,rep:8
+SHA1: 4762bede2d67e96bab728a2d9d75e51d106a6795
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000007,sig:11,src:000109,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffb321 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x00000000000054a5 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x000080000000329e r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000008,sig:11,src:000032,op:havoc,rep:2
+SHA1: 52a81e5d18dbe3681865342ac5e98791b3ceb7df
+Classification: UNKNOWN
+Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000008,sig:11,src:000032,op:havoc,rep:2 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b383: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffb62b rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x000000000000519b r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000002f94 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000009,sig:11,src:000055,op:havoc,rep:8
+SHA1: d0597685f9d6238e7ca9190fe18bc443387a638b
+Classification: UNKNOWN
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000009,sig:11,src:000055,op:havoc,rep:8 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff677a rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x000000000000a04c r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x0000800000007e45 r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation
+   Short description: AccessViolation (21/22)
+   Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes/id:000010,sig:11,src:000123+000370,op:splice,rep:4
+SHA1: d7960ec0f167337af89adf97df745578b8fd8157
+Classification: EXPLOITABLE
+Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000010,sig:11,src:000123+000370,op:splice,rep:4 /tmp.out
+Faulting Frame:
+   xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+Disassembly:
+Stack Head (8 entries):
+   xlogging_logger_v         @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
+   __log_error               @ 0x00000000004217af: in /repo/build/cmake/Release/bin/protofuzz
+   io_ref_from_string        @ 0x0000000000421ba6: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_ref             @ 0x0000000000422f31: in /repo/build/cmake/Release/bin/protofuzz
+   io_decode_message         @ 0x000000000041b211: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_stream_decode_ @ 0x0000000000408674: in /repo/build/cmake/Release/bin/protofuzz
+   io_message_file_decode_en @ 0x0000000000409061: in /repo/build/cmake/Release/bin/protofuzz
+   main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
+Registers:
+rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffeb10 rsp=0x00007fffffffdd90 
+ r8=0x0000000000000000  r9=0x0000000000001cb6 r10=0x000000000000000f r11=0x000000000046b039 
+r12=0x0000000000000000 r13=0x00007ffffffffaaf r14=0xfffffffffffffffc r15=0x000000000046866b 
+rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
+ ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
+Extra Data:
+   Description: Access violation on destination operand
+   Short description: DestAv (8/22)
+   Explanation: The target crashed on an access violation at an address matching the destination operand of the instruction. This likely indicates a write access violation, which means the attacker may control the write address and/or value.
+---END SUMMARY---
+---CRASH SUMMARY---
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000000,sig:11,src:000026,op:havoc,rep:16
 SHA1: 57602309db19f97d97ad7f86f446e3ad58cacf82
 Classification: UNKNOWN
 Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000000,sig:11,src:000026,op:havoc,rep:16 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000000,sig:11,src:000026,op:havoc,rep:16 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -544,9 +1378,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffccc1 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffccc1 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000003b05 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x00008000000018fe r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x00008000000018ee r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -555,11 +1389,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000001,sig:11,src:000040+000066,op:splice,rep:4
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000001,sig:11,src:000040+000066,op:splice,rep:4
 SHA1: b536c17081d875c2ffa690bb18c0ecc6db95cf37
 Classification: UNKNOWN
 Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000001,sig:11,src:000040+000066,op:splice,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000001,sig:11,src:000040+000066,op:splice,rep:4 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -574,9 +1408,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff8a8d rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff8a8d rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000007d39 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000005b32 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000005b22 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -585,11 +1419,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000002,sig:11,src:000042,op:havoc,rep:4
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000002,sig:11,src:000042,op:havoc,rep:4
 SHA1: 745f20d985b0319e0ac8dd98b55984ef51236052
 Classification: UNKNOWN
 Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000002,sig:11,src:000042,op:havoc,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000002,sig:11,src:000042,op:havoc,rep:4 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -604,9 +1438,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffda38 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffda38 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000002d8e r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000000b87 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000000b77 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -615,11 +1449,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000003,sig:11,src:000077,op:havoc,rep:8
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000003,sig:11,src:000077,op:havoc,rep:8
 SHA1: b31e6043e9194c18adda94aa76e84dcff3320cde
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000003,sig:11,src:000077,op:havoc,rep:8 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000003,sig:11,src:000077,op:havoc,rep:8 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -634,9 +1468,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffac79 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffac79 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000005b4d r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000003946 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000003936 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -645,11 +1479,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000004,sig:11,src:000014,op:havoc,rep:4
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000004,sig:11,src:000014,op:havoc,rep:4
 SHA1: f5df35f13f97493dd23d4756613268f64b22cd35
 Classification: UNKNOWN
 Hash: 5f5083249ce1f08c641e25772d8cbfc5.c104cda2b2178cc52351da3a633572d7
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000004,sig:11,src:000014,op:havoc,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000004,sig:11,src:000014,op:havoc,rep:4 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -664,9 +1498,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffba15 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffba15 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000004db1 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000002baa r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000002b9a r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -675,11 +1509,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000005,sig:11,src:000001,op:havoc,rep:2
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000005,sig:11,src:000001,op:havoc,rep:2
 SHA1: 3f01d12eae2d25dbf9462cb9fb8a84c938e16343
 Classification: UNKNOWN
 Hash: f4a6e02d9813b341df65b84fe1b46c37.6f1d9ead3b69ca2057b6273af49af01e
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000005,sig:11,src:000001,op:havoc,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000005,sig:11,src:000001,op:havoc,rep:2 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -694,9 +1528,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffd168 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffd168 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x000000000000365e r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000001457 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000001447 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -705,11 +1539,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000006,sig:11,src:000018,op:havoc,rep:16
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000006,sig:11,src:000018,op:havoc,rep:16
 SHA1: c306b41936d4d7df4380f8cbb1e20d8e67874600
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000006,sig:11,src:000018,op:havoc,rep:16 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000006,sig:11,src:000018,op:havoc,rep:16 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -724,9 +1558,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffdd95 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffdd95 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000002a31 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x000080000000082a r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x000080000000081a r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -735,11 +1569,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000007,sig:06,src:000068+000427,op:splice,rep:4
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000007,sig:06,src:000068+000427,op:splice,rep:4
 SHA1: f2bc9f96497a0295b846afd7816f63af1fe8b5c3
 Classification: EXPLOITABLE
 Hash: 468bb0bdcd09d70b5f5eda240e944d89.bd717ee32baea6ee0c10da3b653ac739
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000007,sig:06,src:000068+000427,op:splice,rep:4 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000007,sig:06,src:000068+000427,op:splice,rep:4 /tmp.out
 Faulting Frame:
    io_ref_from_string @ 0x0000000000421c44: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -757,9 +1591,9 @@ Stack Head (11 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000054 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a9ce rdi=0x000000000000a9ce rbp=0x00007fffffffe6b0 rsp=0x00007fffffffe398 
- r8=0x522f656b616d632f  r9=0x622f657361656c65 r10=0x0000000000000008 r11=0x0000000000000202 
-r12=0x0000000000000054 r13=0x00007fffffffe528 r14=0x00007fffffffe528 r15=0x0000000000000001 
+rsi=0x0000000000012768 rdi=0x0000000000012768 rbp=0x00007fffffffe6a0 rsp=0x00007fffffffe388 
+ r8=0x61656c65522f656b  r9=0x702f6e69622f6573 r10=0x0000000000000008 r11=0x0000000000000202 
+r12=0x0000000000000054 r13=0x00007fffffffe518 r14=0x00007fffffffe518 r15=0x0000000000000001 
 rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -768,11 +1602,11 @@ Extra Data:
    Explanation: The target stopped while handling a signal that was generated by libc due to detection of a stack buffer overflow. Stack buffer overflows are generally considered exploitable.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000009,sig:11,src:000465,op:havoc,rep:2
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000009,sig:11,src:000465,op:havoc,rep:2
 SHA1: 4f5f69f9b2255aeca3a996d1fb1bef6019d48ddb
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000009,sig:11,src:000465,op:havoc,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000009,sig:11,src:000465,op:havoc,rep:2 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -787,9 +1621,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff98a2 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff98a2 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000006f24 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000004d1d r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000004d0d r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -798,11 +1632,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000010,sig:11,src:000022,op:havoc,rep:2
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000010,sig:11,src:000022,op:havoc,rep:2
 SHA1: b7616d4cd4ef048025b717f0b26fc45b5433ffdf
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000010,sig:11,src:000022,op:havoc,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000010,sig:11,src:000022,op:havoc,rep:2 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -817,9 +1651,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffae75 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffae75 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000005951 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x000080000000374a r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x000080000000373a r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -828,11 +1662,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000011,sig:06,src:000052+000129,op:splice,rep:8
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000011,sig:06,src:000052+000129,op:splice,rep:8
 SHA1: 89e9712f7826caaa4556a8f043de693201976340
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000011,sig:06,src:000052+000129,op:splice,rep:8 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000011,sig:06,src:000052+000129,op:splice,rep:8 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -852,10 +1686,10 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a9e6 rdi=0x000000000000a9e6 rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
- r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
-r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
-rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
+rsi=0x0000000000012782 rdi=0x0000000000012782 rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
+ r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000206 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
+rip=0x00007ffff751d428 efl=0x0000000000000206  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
    Description: Abort signal
@@ -863,11 +1697,11 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000012,sig:06,src:000052+000429,op:splice,rep:16
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000012,sig:06,src:000052+000429,op:splice,rep:16
 SHA1: ee4579315307a5d30a2a7cd846c6ebf4e3942ad9
 Classification: UNKNOWN
 Hash: 4a5eb25fa9e5a97bdc2c1cc2a68e4f14.0ddbb102d06ee82765a15fd18a2f7812
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000012,sig:06,src:000052+000429,op:splice,rep:16 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000012,sig:06,src:000052+000429,op:splice,rep:16 /tmp.out
 Faulting Frame:
    strcpy @ 0x0000000000421a17: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -887,9 +1721,9 @@ Stack Head (13 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x0000000000000000 rbx=0x0000000000000055 rcx=0x00007ffff751d428 rdx=0x0000000000000006 
-rsi=0x000000000000a9ec rdi=0x000000000000a9ec rbp=0x00007fffffffe690 rsp=0x00007fffffffe378 
+rsi=0x0000000000012786 rdi=0x0000000000012786 rbp=0x00007fffffffe680 rsp=0x00007fffffffe368 
  r8=0x0000000000000006  r9=0x0000000000000000 r10=0x0000000000000008 r11=0x0000000000000202 
-r12=0x0000000000000055 r13=0x00007fffffffe508 r14=0x00007fffffffe508 r15=0x0000000000000002 
+r12=0x0000000000000055 r13=0x00007fffffffe4f8 r14=0x00007fffffffe4f8 r15=0x0000000000000002 
 rip=0x00007ffff751d428 efl=0x0000000000000202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -898,11 +1732,11 @@ Extra Data:
    Explanation: The target is stopped on a SIGABRT. SIGABRTs are often generated by libc and compiled check-code to indicate potentially exploitable conditions. Unfortunately this command does not yet further analyze these crashes.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000013,sig:11,src:000069,op:havoc,rep:8
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000013,sig:11,src:000069,op:havoc,rep:8
 SHA1: cb2b35a1784a878229c4c0c261197b03fc2c532f
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000013,sig:11,src:000069,op:havoc,rep:8 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000013,sig:11,src:000069,op:havoc,rep:8 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -917,9 +1751,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffffae0a rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffffae0a rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x00000000000059bc r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x00008000000037b5 r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x00008000000037a5 r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
@@ -928,11 +1762,11 @@ Extra Data:
    Explanation: The target crashed due to an access violation but there is not enough additional information available to determine exploitability.
 ---END SUMMARY---
 ---CRASH SUMMARY---
-Filename: /share/protofuzz/mani-vm2_3/crashes/id:000014,sig:11,src:000014+000040,op:splice,rep:2
+Filename: /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000014,sig:11,src:000014+000040,op:splice,rep:2
 SHA1: 323bf4841529e6536de9d7843c5fadd63515e902
 Classification: UNKNOWN
 Hash: ef2b40b5ac3f1318f2dafa795fceb6f9.91a08eead0bb122362eeb84d0aad68c8
-Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes/id:000014,sig:11,src:000014+000040,op:splice,rep:2 /tmp.out
+Command: /repo/build/cmake/Release/bin/protofuzz json /share/protofuzz/mani-vm2_3/crashes.2017-05-01-16:10:25/id:000014,sig:11,src:000014+000040,op:splice,rep:2 /tmp.out
 Faulting Frame:
    xlogging_logger_v @ 0x0000000000409a1d: in /repo/build/cmake/Release/bin/protofuzz
 Disassembly:
@@ -947,9 +1781,9 @@ Stack Head (8 entries):
    main                      @ 0x00000000004093d8: in /repo/build/cmake/Release/bin/protofuzz
 Registers:
 rax=0x00000000000081fa rbx=0x000000000046862e rcx=0x00000000006734c0 rdx=0x00000000006734c0 
-rsi=0x0000000000000002 rdi=0x00007fffffffdd10 rbp=0xffffffffffff8aa4 rsp=0x00007fffffffdd90 
+rsi=0x0000000000000002 rdi=0x00007fffffffdd00 rbp=0xffffffffffff8aa4 rsp=0x00007fffffffdd80 
  r8=0x0000000000000000  r9=0x0000000000007d22 r10=0x000000000000000f r11=0x000000000046b039 
-r12=0x0000000000000000 r13=0x0000800000005b1b r14=0xfffffffffffffffc r15=0x000000000046866b 
+r12=0x0000000000000000 r13=0x0000800000005b0b r14=0xfffffffffffffffc r15=0x000000000046866b 
 rip=0x0000000000409a1d efl=0x0000000000010202  cs=0x0000000000000033  ss=0x000000000000002b 
  ds=0x0000000000000000  es=0x0000000000000000  fs=0x0000000000000000  gs=0x0000000000000000 
 Extra Data:
