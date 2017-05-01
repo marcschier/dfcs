@@ -2,11 +2,11 @@
     "version": 6,
     "source_id": { "id": "a000ad0c-00db-0000-0c0c-000000f0b000" },
     "proxy_id": {
-      "id": "6c8083a6-fce9-027c-f006-a0590db7d37d"
+      "id": "6c8083a6-fce9-027c-f000-a0590db7d37d"
     },
 
    "target_id": {
-      "id": "a100ad6c-00db-0375-8c0c-01f000f2b110"
+      "id": "a100ad6c-00db-0075-0c0c-01f800f2b110"
     },
     "error_code": 0,
     "is_response": true,
@@ -15,8 +15,8 @@
       "address": {
         "family": 23,
         "flow": 0,
-        "port": 7,
-"addr": "2oAAAAAAAACs2QHd}0Q7ew==",
+        "port": 0,
+"addr": "2oAAAAAAAACs0QHd}0Q7ew==",
         "scope_id": 5
       },
       "physical_address": "ÿÿÿÿA0AAAA!=",
