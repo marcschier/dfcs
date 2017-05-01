@@ -1,0 +1,5 @@
+**/queue.*/**
+**/hangs.*/**
+**/crashes.*/**
+**/.state/**
+**/.cur_input
