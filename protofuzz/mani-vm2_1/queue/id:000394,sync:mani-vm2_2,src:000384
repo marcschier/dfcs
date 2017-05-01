@@ -1,0 +1,27 @@
+{
+    "version": 6,
+"source_id": {
+  "id": "00000000-0000-0000-0000-000000000000"
+  },
+    "proxy_id": {
+      "id": "6c8c83a6-fce9-027c-f076-a0590db7d37d"
+    },
+
+   "target_id": {
+      "id": "a150ad6c-44db-4373-8c0c-01f800f2b110"
+    },
+    "error_code": 0,
+    "is_response": true,
+    "type": 10,
+    "content": {
+      "address": {
+        "family": 23,
+        "flow": 0,
+        "port": 7,
+"addr": "/oAAAAAAAACs2QHd}0Q7ew==",
+        "scope_id": 5
+      },
+      "physical_address": "ÿÿÿÿA0AAAA!=",
+      "time_ms": 0
+}
+}
