@@ -1,0 +1,20 @@
+{  "version": 6,
+"source_id": { "id": "a000ad0c-000b-0000-0c0c-000000f0b000" },   "proxy_id": { "id": "0c0000a0-fce0-000c-f000-00000000000000000000"
+},
+    "target_id": {
+  "id": "a000ad0c-00db-0000-0cDc-00f00000b00d"
+    },
+    "error_code": 0,
+    "is_response": true,
+    "type": 10,
+    "content": {
+      "address": {
+        "family": 0,
+        "0000": 0,
+"000r": "000000000000000000000000",
+        "00000000": 0
+      },
+      "physical_address": "AAAAAAAAAAA=",
+      "time_ms": 0
+}
+}
