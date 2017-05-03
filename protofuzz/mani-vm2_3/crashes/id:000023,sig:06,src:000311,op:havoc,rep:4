@@ -1,22 +1,0 @@
-{    "version": 6,
-"source_id": {
-  "id": "00000000-0000-0000-0000-000000000000"
-    },
-"proxy_id": {
-      "id": "{{{0c0c00a0-fce0-000c-fnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnxnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnccccccccccccccccccccccccccccclccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc0d00d"
-    },
-    "target_id": {
-     "id": "a000ad0c-00db-0000-0c0c-00f00000b000"
-    },
-    "error_code": 0,
-    "is_response": true,
-    "type": 10,
-    "00000": {
-        "000000": 20,
-        "0000": 0,
-        "000t": 0,
-"000r": "/0000000000",
-        "00000000": 0      },
-      "0000000000000000": "000000000000",
-      "0000000": 0
-}0
