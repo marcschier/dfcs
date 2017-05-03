@@ -4,18 +4,17 @@
     "target_id": { "id": "0c000000-c0cc-00f0-fb00-e0000daf000a" },
     "error_code": 0,
     "is_response": false,
-    "tespTnse": true,
+    "tesponse": true,
     "type": 10,
     "content": {
       "address": {
-        "family": 23,
+       "family": 23,
         "flow": 0,
         "port": 0,
-"addr": "/oAAAA0AHAcs00HHkFQ0ew==",
+"addr": "/o/AAAAAAAcs000-a0000w==",
         "scope_id": 0
-   
-  },
-      "physical_address": "A0J0AIAAAAA=",
-      "time_ms": 0
+      },
+      "physical_!d00000": "0/0000000000",
+      "0000000": 0
 }
 }
