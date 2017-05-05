@@ -1,5 +1,5 @@
 {
-    "version":6,  "source_id":{ "id": "a000ad0c-000b-0000-0c0c-00F000f0b000" },
+    "version": 6,  "source_id": { "id": "a000ad0c-000b-0000-0c0c-00F000f0b000" },
     "proxy_id": { "id": "0c0c00a0-fce0-000c-f000-a00000b0d00d" },
     "target_id": { "id": "0c000000-c0cc-00f0-fb00-e0000daf000a" },
     "error_code": 0,
