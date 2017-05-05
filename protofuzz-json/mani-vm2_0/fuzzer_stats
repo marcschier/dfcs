@@ -1,9 +1,9 @@
 start_time        : 1493997741
-last_update       : 1493998049
+last_update       : 1493998109
 fuzzer_pid        : 18
 cycles_done       : 0
-execs_done        : 117130
-execs_per_sec     : 343.69
+execs_done        : 137469
+execs_per_sec     : 324.07
 paths_total       : 329
 paths_favored     : 158
 paths_found       : 0
@@ -20,7 +20,7 @@ unique_hangs      : 0
 last_path         : 1493997977
 last_crash        : 0
 last_hang         : 0
-execs_since_crash : 117130
+execs_since_crash : 137469
 exec_timeout      : 1000
 afl_banner        : mani-vm2_0
 afl_version       : 2.41b
