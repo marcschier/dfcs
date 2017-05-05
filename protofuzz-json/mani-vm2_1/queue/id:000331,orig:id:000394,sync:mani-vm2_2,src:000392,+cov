@@ -1,0 +1,24 @@
+{  "version":6,    "source_id":{ "id":"a000ad0c-00db-0000-0c0c-000000f0b000"},
+    "proxy_id":{ "id":"0c0c00a0-fce0-000c-f000-00000db0d00d"},
+    "target_id":{ "id":"00000000-0000-0000-0000-000000000000"},
+    "error_code": 0,
+    "is_response": false,
+    "type": 12,
+    "content": {
+      "version": 0,
+      "props": {
+        "family": 0,
+        "sock_type": 0,
+        "proto_type": 0,
+        "flags": 0,
+        "timeout": 0,
+        "address": {
+          "family": 28165,
+          "flow": 0,
+          "port": 0,
+          "host": "0000000"
+    },
+        "options":100
+      }
+    }
+  }
