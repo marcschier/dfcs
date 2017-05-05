@@ -1,0 +1,27 @@
+start_time        : 1493995282
+last_update       : 1493995405
+fuzzer_pid        : 18
+cycles_done       : 5
+execs_done        : 93194
+execs_per_sec     : 929.09
+paths_total       : 316
+paths_favored     : 104
+paths_found       : 168
+paths_imported    : 140
+max_depth         : 4
+cur_path          : 108
+pending_favs      : 0
+pending_total     : 163
+variable_paths    : 9
+stability         : 99.73%
+bitmap_cvg        : 3.41%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1493995404
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 93194
+exec_timeout      : 1000
+afl_banner        : mani-vm2_3
+afl_version       : 2.41b
+command_line      : afl-fuzz -i /share/testcases -o /share/protofuzz-json -S mani-vm2_3 -t 1000 -m none -- /repo/build/cmake/Release/bin/protofuzz -json @@
