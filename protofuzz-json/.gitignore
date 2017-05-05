@@ -2,5 +2,6 @@
 **/hangs.*/**
 **/crashes.*/**
 **/_resume/**
+**/._out_tmp/**
 **/.state/**
 **/.cur_input
