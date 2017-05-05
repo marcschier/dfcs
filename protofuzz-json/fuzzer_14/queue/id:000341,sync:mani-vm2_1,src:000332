@@ -13,10 +13,10 @@
         "family": 23,
         "flow": 0,
         "port": 0,
-"addr": "/o$AAA==",
+"addr": "/o$000==",
        "scope_id": 0
       },
-      "physical_address": "AÚAAAAA=",
+      "physical_address": "0Ú00000=",
       "time_ms":90
 }
 }
