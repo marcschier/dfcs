@@ -1,18 +1,23 @@
-{ "version": 6,  "source_id": { "id": "a000ad0c-00db-0000-0c0c-000000f0b000"},
-"proxy_id": { "id": "0c0c00a0-fce0-000c-f000-00000db0d00d"},
-    "target_id": { "id": "00000000-0000-0000-0000-000000000000"},
+{ "version": 6,    "source_id": { "id": "a000ad0c-00db-0000-0c0c-0000000000000"
+    },
+    "proxy_id": {
+      "id": "0c0000a0-fce0-d00c-f000-00000db0d00d"
+    },
+    "target_id": {
+      "id": "a000ad0c-00db-0000-0a0c-00f00000b000"
+    },
     "error_code": 0,
-    "is_response": false,
- "0000000000000000000000": true,
+    "is_response": true,
     "type": 10,
     "content": {
       "address": {
         "family": 23,
         "flow": 0,
         "port": 0,
-"addr": "/oA000F0000M000000000w==",
+"addr": "/oA0AAAAAACs0QHSkFQ+ew==",
         "scope_id": 0
       },
-      "0000000000000000": "000000000000",
-      "0000000": 0
-}}
+      "physical_address": "AAA+AAAaAv#=",
+      "time_ms": 0
+}
+}
