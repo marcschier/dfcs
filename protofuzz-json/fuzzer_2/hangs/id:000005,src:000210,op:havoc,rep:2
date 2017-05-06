@@ -1,0 +1,31 @@
+{    "version": 6,
+"source_id": {
+  @   "id": "00000000-0000-0000-0000-000000000000"
+    },
+    "proxy_id": {
+      "id": "000c00a0-0c00-000c-f000-a00000b0d000"
+    },
+    "target_id": {
+      "id": "a000ad0c-00db-0000-0c0c-00f000f0b000"
+    },
+    "error_code": 0,
+    "is_response": true,
+    "type": 12,
+    "content": {
+      "link_id": {
+        "id": "0c000000-c0cc-00f0-fb00-e00e0daf000a"
+      },
+      "local_address": {
+        "family": 2,
+        "flow": 0,
+        "port": 60000,
+        "addr": "+gBLAQ=="
+      },
+      "peer_address": {
+        "family": 2,
+        "flow":0,
+        "port": 0,
+        "addr": "CgBLAQ=="
+      }
+    }
+  }0
