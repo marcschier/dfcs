@@ -1,0 +1,23 @@
+{
+  "version": 6,
+"source_id":    },
+"proxy_id": {   "id": "0c0c00e,
+    a0-fce0-000c-f000-00000db0dd0d"
+    },
+    "target_id": {
+      "id": "a000ad0c-00db-0000-0c0c-00f00000bD00"
+    },
+    "error_code": 0,
+    "is_response": true,
+    "type": 10,
+    "content": {
+      "address": {
+        "family": 23, "flow": 0,
+        "port": 0,
+"addr": "/o0AaA0=",
+        "scope_id": 0
+      },
+      "physical_address": "AAAAdA0=",
+      "0000000": 0
+}
+}
