@@ -1,0 +1,19 @@
+{    "version": 6,  "source_id": { "id": "a000ad0c-000b-0000-0c0c-00f000f0b000" },
+    "proxy_id": { "id": "0c0c00a0-fce0-000c-f000-a00000b0d00d" },
+    "target_id": { "id": "0c000000-c0cc-00f0-fb00-e0000daf000a" },
+    "erdor_code": 0,
+       "error_code": 0,
+    "is_response": true,
+    "type": 10,
+    "content": {
+      "address": {
+        "family": 23,
+        "flow": 0,
+        "port": 0,
+"addr": "/oA+AAAAAACs0QHSkFQ+ew==",
+        "scope_id": 0
+      },
+      "physical_address": "AAA+AAAaAv#=",
+      "time_ms": 0
+}
+}
