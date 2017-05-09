@@ -1,0 +1,27 @@
+start_time        : 1494310836
+last_update       : 1494310836
+fuzzer_pid        : 18
+cycles_done       : 0
+execs_done        : 624
+execs_per_sec     : 2212.77
+paths_total       : 70
+paths_favored     : 61
+paths_found       : 0
+paths_imported    : 0
+max_depth         : 3
+cur_path          : 0
+pending_favs      : 61
+pending_total     : 70
+variable_paths    : 2
+stability         : 98.92%
+bitmap_cvg        : 0.85%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 0
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 624
+exec_timeout      : 20
+afl_banner        : mani-vm2_2
+afl_version       : 2.41b
+command_line      : afl-fuzz -i- -o /share/protofuzz-mpack -S mani-vm2_2 -m none -- /repo/build/cmake/Release/bin/protofuzz -mpack @@
