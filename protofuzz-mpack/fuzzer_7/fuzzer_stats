@@ -1,0 +1,27 @@
+start_time        : 1494431371
+last_update       : 1494431492
+fuzzer_pid        : 18
+cycles_done       : 0
+execs_done        : 14279
+execs_per_sec     : 90.37
+paths_total       : 247
+paths_favored     : 1
+paths_found       : 69
+paths_imported    : 177
+max_depth         : 2
+cur_path          : 0
+pending_favs      : 0
+pending_total     : 246
+variable_paths    : 36
+stability         : 99.86%
+bitmap_cvg        : 3.19%
+unique_crashes    : 0
+unique_hangs      : 0
+last_path         : 1494431454
+last_crash        : 0
+last_hang         : 0
+execs_since_crash : 14279
+exec_timeout      : 20
+afl_banner        : fuzzer_7
+afl_version       : 2.41b
+command_line      : afl-fuzz -i /share/testcases -o /share/protofuzz-mpack -S fuzzer_7 -m none -- /repo/build/cmake/Release/bin/protofuzz -mpack @@
