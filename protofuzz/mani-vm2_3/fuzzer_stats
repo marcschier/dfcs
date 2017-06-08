@@ -25,3 +25,4 @@ exec_timeout      : 1000
 afl_banner        : mani-vm2_3
 afl_version       : 2.41b
 command_line      : afl-fuzz -i- -o /share/protofuzz -S mani-vm2_3 -t 1000 -m none -- /proxy/build/cmake/Release/bin/protofuzz json @@ /tmp.out
+
